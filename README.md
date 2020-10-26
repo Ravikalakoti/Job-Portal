@@ -9,4 +9,4 @@
   <li>Resume upload and apply to an organization.</li>
   <li>List of all candidates to the HR.</li>
 </ol>
-<img src="Job-Portal/images/home.png">
+<img src="https://github.com/Ravikalakoti/Job-Portal/blob/main/images/home.png">
