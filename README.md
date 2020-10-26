@@ -12,4 +12,4 @@
 <img src="https://github.com/Ravikalakoti/Job-Portal/blob/main/images/home.png">
 
 <h3>Apply the job click on apply button</h3>
-<img src="">
+<img src="https://github.com/Ravikalakoti/Job-Portal/blob/main/images/apply.png">
