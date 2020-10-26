@@ -19,3 +19,6 @@
 
 <h3>Login Form </h3>
 <img src="https://github.com/Ravikalakoti/Job-Portal/blob/main/images/login.png">
+
+<h3>List of Candidates for HR</h3>
+<img src="https://github.com/Ravikalakoti/Job-Portal/blob/main/images/hr.png">
