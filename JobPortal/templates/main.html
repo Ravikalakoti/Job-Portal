@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"0>
+    <title>Online Job portal Project</title>
+
+</head>
+<body>
+
+
+
+</body>
+</html>
+
+
+<head>
+    <style>
+      .user{
+        color:blue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="{% url 'home' %}"><h4 style="font-color:red;">JOB PORTAL WEBSITE HOME</h4>
+      <a class="navbar-brand" href="{% url 'home' %}"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+      </div>
+      {% if request.user.is_authenticated %}
+      <span class="user">Hello, {{request.user}}  &nbsp;</span>
+      <span ><a  class="user btn btn-info" href ="{% url 'logout' %}"> Logout</a></span>
+      {% else %}
+          <span ><a class="user" href="{% url 'login' %}">Login</a></span>>
+          <span ><a class="user" href="{% url 'register' %}">Register</a></span>>
+      {% endif  %}
+    </nav>
+ {%block content%}
+
+    {% endblock %}
