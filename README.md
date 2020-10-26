@@ -13,3 +13,6 @@
 
 <h3>Apply the job click on apply button</h3>
 <img src="https://github.com/Ravikalakoti/Job-Portal/blob/main/images/apply.png">
+
+<h3>Register New User</h3>
+<img src="https://github.com/Ravikalakoti/Job-Portal/blob/main/images/register.png">
